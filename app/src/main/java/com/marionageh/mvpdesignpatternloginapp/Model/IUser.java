@@ -1,0 +1,9 @@
+package com.marionageh.mvpdesignpatternloginapp.Model;
+
+public interface IUser {
+   String getEmail();
+   String getPassword();
+   int isValidtion();
+
+
+}
